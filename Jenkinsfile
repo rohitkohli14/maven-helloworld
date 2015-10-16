@@ -1,3 +1,1 @@
-node {
-  sh 'cat pom.xml'
-}
+sh 'cat pom.xml'
