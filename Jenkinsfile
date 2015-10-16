@@ -1,3 +1,3 @@
 node {
-  sh 'mvn clean install'
+  sh 'cat pom.xml'
 }
