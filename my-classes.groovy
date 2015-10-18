@@ -5,3 +5,4 @@ class Foo {
     out.println "some message"
   }
 }
+return;
