@@ -16,5 +16,5 @@ public class App
         try {
             a = "Hello";
         } catch (Exception e) {}
-    };
+    
 }
