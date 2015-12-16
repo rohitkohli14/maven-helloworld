@@ -1,4 +1,5 @@
+import hudson.plugins.git.extensions.impl.CleanCheckout
 node {
-  git 'https://github.com/amuniz/maven-helloworld.git'
-  sh 'mvn clean'
+  scm.extensions.replace(new CleanCheckout())
+  checkout scm
 }
