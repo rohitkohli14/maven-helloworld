@@ -6,7 +6,6 @@
 1. Checkstyle Plugin
 1. Findbugs Plugin
 1. PMD Plugin
-1. SSH Agent
 1. Two agents: linux1, linux2
 1. This repository
 
@@ -14,7 +13,7 @@
 
 ### Compile
 
-mvn clean install -DskipTest
+mvn clean install -DskipTests
 
 ### Test
 
