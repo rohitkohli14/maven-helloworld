@@ -13,7 +13,7 @@
 
 ### Compile
 
-mvn clean install -DskipTest
+mvn clean install -DskipTests
 
 ### Test
 
