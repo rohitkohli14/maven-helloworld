@@ -1,4 +1,5 @@
 node {
   git 'https://github.com/amuniz/maven-helloworld.git'
-  sh 'mvn clean'
+  def mvnHome = tool 'maven-3'
+  sh "${mvnHome}/bin/mvn clean"
 }
