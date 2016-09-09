@@ -12,7 +12,7 @@ parallel one: {
     node('linux1') {
         unstash 'working-copy'
         def mvnHome = tool 'maven-3'
-        sh "${mvnHome}/bin/mvn test -Diterations=10"    
+        sh "${mvnHome}/bin/mvn test -Diterations=10"
     }
 }, two: {
     node('linux2') {
