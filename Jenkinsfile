@@ -1,11 +1,14 @@
 stage 'Compile'
-sh 'echo Hello'
+node {
+  sh 'echo Hello'
+}
 
 stage 'Test'
-sh 'echo Hello'
 
 stage 'Code Quality'
-sh 'echo Hello'
 
 stage name: 'Deploy', concurrency: 1
 echo 'Finish'
+node {
+  sh 'echo Hello'
+}
