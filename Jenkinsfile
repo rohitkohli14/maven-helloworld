@@ -1,5 +1,4 @@
-stage 'Compile'
-node('linux1') {
+node('master') {
     checkout scm
     // use for non multibranch: git 'https://github.com/amuniz/maven-helloworld.git'
     def mvnHome = tool 'maven-3'
